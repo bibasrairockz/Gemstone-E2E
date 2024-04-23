@@ -46,23 +46,6 @@ pip install -r requirements.txt
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/bibas.rai/gemstoneetoe.mlflow \
-MLFLOW_TRACKING_USERNAME=sunny.savita \
-MLFLOW_TRACKING_PASSWORD=3c2c8cd1436ad32b510cfdd84944a528ba4fb650 \
-python script.py
-
-Run this to export as env variables:
-
-```bash
-
-export MLFLOW_TRACKING_URI=https://dagshub.com/bibas.rai/gemstoneetoe.mlflow
-
-export MLFLOW_TRACKING_USERNAME=bibas.rai
-
-export MLFLOW_TRACKING_PASSWORD=3c2c8cd1436ad32b510cfdd84944a528ba4fb650
-
-```
-
 
 ### DVC cmd
 - dvc init
